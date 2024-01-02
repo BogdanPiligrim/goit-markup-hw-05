@@ -6,6 +6,9 @@ body {
 a {
     text-decoration: none;
 }
+input {
+    outline: none;
+}
 img {
     display: block;
 }
@@ -690,7 +693,7 @@ button:focus {
     background-color: #404BBF;
     border: none; 
 }
-.modal-button{
+.modal-button {
     cursor: pointer;
 }
 .checkbox-wrapper {
