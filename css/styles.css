@@ -694,7 +694,7 @@ button:focus {
     cursor: pointer;
 }
 .checkbox-wrapper {
-    margin-bottom: 24px; 
+    margin-bottom: 16px; 
     display: block;
     color: #8E8F99;
     font-size: 12px;
