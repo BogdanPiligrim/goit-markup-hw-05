@@ -590,6 +590,12 @@ button:focus {
     stroke: currentColor;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.modal-bott-icons:hover {
+    fill: #ffffff;
+}
+.modal-bott-icons:focus {
+    fill: #ffffff;
+}
 .modal-bloc-paragraf {
     color:  #2E2F42;
     text-align: center;
