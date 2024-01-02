@@ -635,3 +635,95 @@ button:focus {
 .form-imput:focus + .form-icons {
     fill: #4D5AE5;
 }
+.form-massage {
+    width: 100%;
+    height: 120px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    background-color: transparent; 
+    color: #8E8F99;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    line-height: 1.17; 
+    color: rgba(46, 47, 66, 0.4); 
+    outline: transparent;
+    resize: none;
+    opacity: 0.5;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+.form-massage:focus {
+    border-color: #4D5AE5;
+}
+.form-massage::placeholder {
+    color: currentColor;   
+}
+.modal-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none; 
+    border-radius: 4px; 
+    margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+.modal-button:hover {
+    background-color: #404BBF;
+}
+.modal-button:focus {
+    background-color: #404BBF;
+}
+.modal-button{
+    cursor: pointer;
+}
+.checkbox-wrapper {
+    margin-bottom: 24px; 
+    display: block;
+    color: #8E8F99;
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    user-select: none;
+}
+ .form-agreement {
+    margin-bottom: 24px; 
+    display: block;
+    color: #8E8F99;
+    font-size: 12px;
+    letter-spacing: 0.04em; 
+    line-height: 1.17; 
+    user-select: none;
+}
+.form-agreement-checkbox {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+    width: 16px;
+    height: 16px;  
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4); 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    margin-right: 8px;
+}
+input:checked + label > span {
+    background-color: #404BBF;
+    border: none; 
+    fill: #F4F4FD;
+}
+input:focus + label > span {
+    border-color: #4D5AE5;
+}
+.checkbox:checked + .form-agreement-checkbox > .form-agreement-icon {
+    opacity: 1;
+}
+.form-agreement-link {
+    color:  #4D5AE5;
+    text-decoration-line: underline;
+}
