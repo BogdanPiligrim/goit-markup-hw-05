@@ -578,7 +578,11 @@ button:focus {
     border: 1px solid rgba(0, 0, 0, 0.1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-bott:hover
+.modal-bott:hover{
+    background-color: #404BBF;
+    fill: #FFF;
+    border: none;
+}
 .modal-bott:focus {
     background-color: #404BBF;
     fill: #FFF;
@@ -620,6 +624,7 @@ button:focus {
     background-color: transparent; 
     outline: transparent; 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    
 }
 .form-imput:focus {
     border-color: #4D5AE5;
