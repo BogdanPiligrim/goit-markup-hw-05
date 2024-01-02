@@ -723,15 +723,15 @@ button:focus {
     cursor: pointer;
     margin-right: 8px;
 }
-input:checked .label > span {
+input:checked + label > span {
     background-color: #404BBF;
     border: none; 
     fill: #F4F4FD;
 }
-input:focus  .label > span {
+input:focus + label > span {
     border-color: #4D5AE5;
 }
-.checkbox:checked  .form-agreement-checkbox > .form-agreement-icon {
+.checkbox:checked + .form-agreement-checkbox > .form-agreement-icon {
     opacity: 1;
 }
 .form-agreement-link {
