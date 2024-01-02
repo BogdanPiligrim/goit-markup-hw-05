@@ -632,7 +632,7 @@ button:focus {
     fill: #2E2F42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-.form-imput:focus + .form-icons {
+.form-imput:focus .form-icons {
     fill: #4D5AE5;
 }
 .form-massage {
@@ -675,9 +675,11 @@ button:focus {
 }
 .modal-button:hover {
     background-color: #404BBF;
+    border: none; 
 }
 .modal-button:focus {
     background-color: #404BBF;
+    border: none; 
 }
 .modal-button{
     cursor: pointer;
@@ -712,15 +714,15 @@ button:focus {
     cursor: pointer;
     margin-right: 8px;
 }
-input:checked + label > span {
+input:checked .label > span {
     background-color: #404BBF;
     border: none; 
     fill: #F4F4FD;
 }
-input:focus + label > span {
+input:focus  .label > span {
     border-color: #4D5AE5;
 }
-.checkbox:checked + .form-agreement-checkbox > .form-agreement-icon {
+.checkbox:checked  .form-agreement-checkbox > .form-agreement-icon {
     opacity: 1;
 }
 .form-agreement-link {
