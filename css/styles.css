@@ -548,12 +548,12 @@ button:focus {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-   }
+}
 .backdrop.is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: initial;
-   }
+}
 .modal {
     position: absolute;
     top: 50%;
