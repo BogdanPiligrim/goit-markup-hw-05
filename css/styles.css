@@ -554,7 +554,7 @@ button:focus {
     visibility: visible;
     pointer-events: initial;
 }
-.modal {
+.modal-box {
     position: absolute;
     top: 50%;
     left: 50%;
